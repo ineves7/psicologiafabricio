@@ -232,7 +232,7 @@ section {
 	display: block;
 	text-transform: capitalize;
 	font-weight: 600;
-	color: #0297FF;
+	color: #165989;
 	font-size: 32px;
 }
 .service-sec h2 small {
@@ -242,12 +242,12 @@ section {
 	margin-bottom: 18px;
 }
 .service-sec i {
-	border: 1px solid #0297FF;
+	border: 1px solid #1e5075;
 	border-radius: 2px;
 	font-size: 25px;
 	padding: 12px 0;
 	width: 52px;
-	color: #0297FF;
+	color: #165989;
 	margin-bottom: 20px
 }
 .service-sec h3 {
