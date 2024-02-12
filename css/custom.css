@@ -100,8 +100,15 @@ section {
 
 .navbar.top-bar {
 	border-radius: 0;
-	padding: 16px 0;
-	z-index: 16;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #0D4771;
+    padding: 55px 0;
+    z-index: 16;
+}
+.logo-img {
+    width: 10px;
+    height: auto;
 }
 .navbar-toggler {
 	border: 1px solid #fff;
@@ -118,19 +125,17 @@ section {
 	width: 100%;
 }
 .sps--abv {
-	background-color: transparent;
+	background-color: #fff;
 	color: #000;
 }
 .sps--blw {
 	background-color: #fff;
 	color: #fff;
 }
-.top-bar a.navbar-brand {
-	color: #fff;
-	font-size: 26px;
-	font-weight: 800;
+.logo-img {
 	padding: 5px 0 0 10px;
-	text-transform: uppercase;
+	width: 10px;
+	height: auto;
 }
 .sps--blw.top-bar a.navbar-brand {
 	color: #000;
@@ -728,6 +733,10 @@ section {
 	border-right: none;
 	color: #fff;
 	padding-left: 0
+}
+.logo img {
+	max-width: 10px; /* Defina o tamanho máximo do logo aqui */
+	height: auto; /* Mantém a proporção do logo */
 }
 footer {
 	float: left;
