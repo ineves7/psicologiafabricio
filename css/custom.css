@@ -102,7 +102,7 @@ section {
 	border-radius: 0;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
-    border-color: #0D4771;
+    border-color: #035668;
     padding: 25px 0;
     z-index: 16;
 }
@@ -144,7 +144,7 @@ section {
 	color: #165989;
 }
 .top-bar .nav-link {
-	color: #fff;
+	color: #171A23;
 	font-size: 16px;
 	font-weight: 500;
 	padding: 12px 18px;
@@ -161,8 +161,8 @@ section {
 	background: rgb(12,36,46);
 }
 .top-bar .nav-link:hover, .top-bar .nav-item.active a {
-	color: #fff;
-	border-bottom: 2px solid #fff;
+	color: #0c8093;
+	border-bottom: 2px solid #0c8093;
 	border-radius: 0;
 }
 .sps--blw.top-bar .nav-link:hover, .sps--blw.top-bar .nav-item.active a {
@@ -223,7 +223,7 @@ section {
 	background: rgba(255,255,255,0.9)
 }
 .main-slider .swiper-pagination-bullet-active {
-	background: #11708f
+	background: #B0E8F1
 }
 /* SERVICE SECTION
 -------------------------------------------------- */
@@ -235,9 +235,9 @@ section {
 }
 .service-sec h2 {
 	display: block;
-	text-transform: capitalize;
+	text-transform: initial;
 	font-weight: 600;
-	color: #165989;
+	color: #0C8093;
 	font-size: 32px;
 }
 .service-sec h2 small {
