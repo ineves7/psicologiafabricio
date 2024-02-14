@@ -247,12 +247,12 @@ section {
 	margin-bottom: 18px;
 }
 .service-sec i {
-	border: 1px solid #1e5075;
+	border: 1px solid #0C8093;
 	border-radius: 2px;
 	font-size: 25px;
 	padding: 12px 0;
 	width: 52px;
-	color: #165989;
+	color: #39A8BA;
 	margin-bottom: 20px
 }
 .service-sec h3 {
@@ -313,7 +313,7 @@ section {
 	display: block;
 	text-transform: capitalize;
 	font-weight: 600;
-	color: #0297FF;
+	color: #0C8093;
 	font-size: 32px;
 }
 .blog-sec h2 small {
@@ -324,7 +324,7 @@ section {
 }
 .blog-sec h3 small {
 	display: block;
-	color: #0297FF;
+	color: #0C8093;
 	margin-bottom: 15px;
 }
 .blog-sec h3 a {
@@ -394,7 +394,7 @@ section {
 	display: block;
 	text-transform: capitalize;
 	font-weight: 600;
-	color: #0297FF;
+	color: #0C8093;
 	font-size: 32px;
 }
 .gallery-sec h2 small {
@@ -409,7 +409,7 @@ section {
 	margin: 0;
 }
 .gallery-sec .gallery-thumb .gallery-overlay {
-	background: #0297FF; /* fallback for old browsers */
+	background: #0C8093; /* fallback for old browsers */
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -690,7 +690,7 @@ section {
 /* CONTACT SECTION
 -------------------------------------------------- */
 .contact-sec {
-	background: url(../img/contact-bg.jpg) no-repeat 0 bottom;
+	background: url(../img/2.jpg) no-repeat 0 bottom;
 	background-size: cover;
 }
 .contact-sec h2 {
@@ -740,7 +740,7 @@ section {
 }
 footer {
 	float: left;
-	background: #0297FF;
+	background: #003544;
 	width: 100%;
 	color: #fff;
 	padding: 20px 0
