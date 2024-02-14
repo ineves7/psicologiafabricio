@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5 {
 	border-radius: 30px;
 }
 .btn-aqua {
-	background: #0297FF;
+	background: #0C8093;
 	color: #fff;
 }
 .btn-aqua:hover {
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5 {
 }
 .btn-transparent-white:hover, .btn-transparent-white:focus {
 	background: #fff;
-	color: #0297FF
+	color: #0C8093
 }
 .relative-box {
 	position: relative
@@ -332,7 +332,7 @@ section {
 	font-size: 22px;
 }
 .blog-sec h3 a:hover {
-	color: #0297FF;
+	color: #0C8093;
 	text-decoration: none;
 }
 .blog-sec .blog-image-block {
@@ -468,8 +468,8 @@ section {
 	border-bottom: 2px solid #fff;
 }
 .filter-wrapper li a:hover, .filter-wrapper li a:focus {
-	color: #0297FF;
-	border-bottom: 2px solid #0297FF;
+	color: #0C8093;
+	border-bottom: 2px solid #0C8093;
 }
 /*--------------isotope box css--------------*/
 .iso-box-section {
