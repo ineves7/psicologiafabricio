@@ -111,7 +111,8 @@ section {
     height: auto;
 }
 .navbar-toggler {
-	border: 1px solid #0c8093;
+	background-color: #0c242e;
+	border: 1px solid #055663;
 	color: #fff;
 	position: absolute;
 	right: -90px;
