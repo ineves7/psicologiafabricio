@@ -18,11 +18,11 @@ h1, h2, h3, h4, h5 {
 	border-radius: 30px;
 }
 .btn-aqua {
-	background: #5EC0D0;
+	background: #0C8093;
 	color: #fff;
 }
 .btn-aqua:hover {
-	background: #0C8093;
+	background: #5EC0D0;
 	color: #fff;
 }
 .btn-dark-blue {
@@ -158,7 +158,7 @@ section {
 }
 
 .top-bar .navbar-collapse.show .navbar-nav .nav-item {
-	background: rgb(12,36,46);
+	background: #0c809300;
 }
 .top-bar .nav-link:hover, .top-bar .nav-item.active a {
 	color: #0c8093;
@@ -796,7 +796,7 @@ footer .copy-footer {
 }
 .top-bar .navbar-nav {
 	width: 100%;
-	background: #0C242E;
+	background: #0C242E00;
 	margin-top: 20px;
 }
 .collapsing {
