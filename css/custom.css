@@ -18,11 +18,11 @@ h1, h2, h3, h4, h5 {
 	border-radius: 30px;
 }
 .btn-aqua {
-	background: #0C8093;
+	background: #5EC0D0;
 	color: #fff;
 }
 .btn-aqua:hover {
-	background: #10629b;
+	background: #0C8093;
 	color: #fff;
 }
 .btn-dark-blue {
