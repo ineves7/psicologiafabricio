@@ -102,7 +102,7 @@ section {
 	border-radius: 0;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
-    border-color: #035668;
+    border-color: #3aa7bf;
     padding: 25px 0;
     z-index: 16;
 }
@@ -690,24 +690,24 @@ section {
 /* CONTACT SECTION
 -------------------------------------------------- */
 .contact-sec {
-	background: url(../img/2.jpg) no-repeat 0 bottom;
+	background: url(../img/BG.svg) no-repeat 0 bottom;
 	background-size: cover;
 }
 .contact-sec h2 {
-	color: #fff;
+	color: #011828;
 	font-weight: 600;
 	text-transform: capitalize;
 	text-align: center;
 	margin-bottom: 50px;
 }
 .contact-sec h2 small {
-	color: #fff;
+	color: #011828;
 	display: block;
 	line-height: 27px;
 	margin-top: 10px;
 }
 .contact-sec label {
-	color: #fff;
+	color: #011828;
 }
 .contact-sec input[type="text"], .contact-sec input[type="email"] {
 	border-radius: 0px;
@@ -727,7 +727,7 @@ section {
 }
 .contact-sec .form-control {
 	background: transparent;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #011828;
 	border-top: none;
 	border-left: none;
 	border-right: none;
