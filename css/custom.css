@@ -174,7 +174,7 @@ section {
     display: inline-block;
     padding: 8px 16px;
     border: 0px solid #0c8093;
-    border-radius: 0px;
+    border-radius: 50px;
     background-color: #05434d;
     color: white;
     text-decoration: none;
@@ -300,18 +300,22 @@ section {
 	left: 0
 }
 .about-sec h2 {
-	font-size: 55px;
+	display: block;
+	text-transform: initial;
 	font-weight: 600;
-	margin-top: 10%;
+	color: #d4eaee;
+	font-size: 32px;
 }
 .about-sec h2 small {
 	display: block;
-	font-size: 24px;
+	font-size: 22px;
 	margin-bottom: 15px;
-	padding-left: 10px;
 }
 .about-sec p {
-	font-size: 16px;
+	font-size: 22px;
+	color: #222;
+	display: block;
+	text-transform: initial;
 }
 /* BLOG SECTION
 -------------------------------------------------- */
