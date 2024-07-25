@@ -144,7 +144,7 @@ section {
 	color: #165989;
 }
 .top-bar .nav-link {
-	color: #171A23;
+	color: #202842;
 	font-size: 16px;
 	font-weight: 500;
 	padding: 12px 18px;
@@ -162,14 +162,24 @@ section {
 }
 .top-bar .nav-link:hover, .top-bar .nav-item.active a {
 	color: #0c8093;
-	border-bottom: 2px solid #0c8093;
+	border-bottom: 0px solid #0c8093;
 	border-radius: 0;
 }
 .sps--blw.top-bar .nav-link:hover, .sps--blw.top-bar .nav-item.active a {
 	color: #0c8093;
-	border-bottom: 2px solid #0c8093;
+	border-bottom: 0px solid #0c8093;
 	border-radius: 0;
 }
+.nav-link-highlight {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 0px solid #0c8093;
+    border-radius: 0px;
+    background-color: #05434d;
+    color: white;
+    text-decoration: none;
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
