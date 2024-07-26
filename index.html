@@ -42,7 +42,6 @@
         <img src="img/Logo menor.svg" alt="Logo da Empresa"></a>
       <div class="collapse navbar-collapse" id="navbarCollapse1">
         <ul class="navbar-nav ml-auto">
-         <!-- <li class="nav-item active"> <a class="nav-link" href="#myCarousel">Home <span class="sr-only">(current)</span></a> </li> -->
         <li class="nav-item"> <a class="nav-link" href="#sobre">Sobre</a> </li>
         <li class="nav-item"> <a class="nav-link" href="#benefits">Público</a> </li>
         <li class="nav-item"> <a class="nav-link" href="#about">Quando</a> </li>
@@ -223,37 +222,44 @@
             <img src="img/1.jpg" class="img-fluid">
     </div>
   </div>
-
+</section>
   <!-- GET IN TOUCH
     ================================================== -->
-</section>
 <section class="contact-sec" id="FAQ">
   <div class="container">
     <h2>Perguntas Frequentes <small>Our work is the presentation of our capabilities.</small> </h2>
-    <details>
-      <summary> O que é Terapia?</summary>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aperiam soluta consectetur mollitia enim, officia alias corrupti quos voluptatum consequuntur beatae? In, rerum consequuntur. Recusandae nostrum nulla unde alias animi?</p>
-    </details>
-
-    <details>
-      <summary> O que é Terapia?</summary>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aperiam soluta consectetur mollitia enim, officia alias corrupti quos voluptatum consequuntur beatae? In, rerum consequuntur. Recusandae nostrum nulla unde alias animi?</p>
-    </details>
-
-    <details>
-      <summary> O que é Terapia?</summary>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aperiam soluta consectetur mollitia enim, officia alias corrupti quos voluptatum consequuntur beatae? In, rerum consequuntur. Recusandae nostrum nulla unde alias animi?</p>
-    </details>
-
-    <details>
-      <summary> O que é Terapia?</summary>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aperiam soluta consectetur mollitia enim, officia alias corrupti quos voluptatum consequuntur beatae? In, rerum consequuntur. Recusandae nostrum nulla unde alias animi?</p>
-    </details>
-
-    <details>
-      <summary> O que é Terapia?</summary>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aperiam soluta consectetur mollitia enim, officia alias corrupti quos voluptatum consequuntur beatae? In, rerum consequuntur. Recusandae nostrum nulla unde alias animi?</p>
-    </details>
+    <div class="accordion" id="faqAccordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Pergunta 1: Qual é o objetivo da terapia?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
+          <div class="card-body">
+            O objetivo da terapia é ajudar os indivíduos a compreender e gerenciar suas emoções, pensamentos e comportamentos, promovendo bem-estar emocional e crescimento pessoal.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Pergunta 2: Como funciona a terapia cognitivo-comportamental?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+          <div class="card-body">
+            A terapia cognitivo-comportamental funciona ajudando os indivíduos a identificar e modificar padrões de pensamento negativos ou disfuncionais, e a desenvolver habilidades de enfrentamento eficazes para lidar com desafios.
+          </div>
+        </div>
+      </div>
+      <!-- Adicione mais perguntas conforme necessário -->
+    </div>
+  </div>
   </div>
 </section>
 <!-- FOOTER
