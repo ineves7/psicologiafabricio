@@ -420,46 +420,6 @@ section {
 	border-radius: 5px;
 }
 
-/* FAQ SECTION
--------------------------------------------------- */
-
-.faq-sec {
-	padding: 40px 0;
-	background-color: transparent;
-  }
-  
-  .faq-sec h2 {
-	text-align: center;
-	margin-bottom: 20px;
-	font-size: 24px;
-  }
-  
-  .faq-list {
-	max-width: 800px;
-	margin: 0 auto;
-  }
-  
-  .faq-item {
-	margin-bottom: 20px;
-  }
-  
-  .faq-question {
-	font-size: 18px;
-	font-weight: bold;
-	cursor: pointer;
-  }
-  
-  .faq-answer {
-	display: none;
-	margin-top: 10px;
-	font-size: 16px;
-	color: #555;
-  }
-  
-  .faq-item.active .faq-answer {
-	display: block;
-  }
-  
 /*--------------filter css--------------*/
 .filter-wrapper {
 	width: 100%;
@@ -725,31 +685,14 @@ section {
 .contact-sec label {
 	color: #011828;
 }
-.contact-sec input[type="text"], .contact-sec input[type="email"] {
-	border-radius: 0px;
+.contact-sec summary {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: left;	
+	padding-left: 350px;
 }
-.contact-sec textarea {
-	border-radius: 0;
-	height: 50px;
-}
-.contact-sec .action-block {
-	margin-top: 40px;
-}
-.contact-sec .action-block a.btn {
-	padding-left: 35px;
-	padding-right: 35px;
-	text-transform: uppercase;
-	font-weight: 600
-}
-.contact-sec .form-control {
-	background: transparent;
-	border-bottom: 1px solid #011828;
-	border-top: none;
-	border-left: none;
-	border-right: none;
-	color: #fff;
-	padding-left: 0
-}
+
 .logo img {
 	max-width: 10px; /* Defina o tamanho máximo do logo aqui */
 	height: auto; /* Mantém a proporção do logo */
