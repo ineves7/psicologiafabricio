@@ -511,6 +511,10 @@ section {
 }
 /*--------------Perguntas Frequentes--------------*/
 
+.contact-sec {
+	background: transparent;
+	background-size: cover;
+}
 .accordion {
 	max-width: 750px;
 	margin: auto;
@@ -552,7 +556,17 @@ section {
 	font-size: 22px;
 	margin-bottom: 18px;
 }
-
+.click-here {
+	color: #0C8093;
+	text-decoration: none;
+	font-weight: bold;
+}
+  
+  .click-here:hover {
+	color: #0c5c6e;
+	text-decoration: underline;
+}
+  
 /*--------------filter css--------------*/
 .filter-wrapper {
 	width: 100%;
@@ -796,12 +810,9 @@ section {
 	font-style: italic;
 	padding: 0 20px
 }
-/* CONTACT SECTION
+/* FOOTER SECTION
 -------------------------------------------------- */
-.contact-sec {
-	background: transparent;
-	background-size: cover;
-}
+
 footer {
 	float: left;
 	background: #003544;
