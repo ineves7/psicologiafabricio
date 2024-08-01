@@ -333,14 +333,21 @@ section {
 .sobre-sec p {
 	line-height: 22px;
 	margin-top: 13px;
-	padding: 0 21px;
-	padding-right: 180px;
+	padding-left: 21px;
+	padding-right: 0px;
 	text-align: justify;
 }
 .sobre-sec .service-block {
 	margin-top: 30px;
     text-align: center;
 }
+.img-fluid {
+	max-width: 85%;
+	height: auto;
+	margin-left: 15%;
+	margin-bottom: 20px;
+}
+
 /* ABOUT SECTION
 -------------------------------------------------- */
 .about-sec {
@@ -376,6 +383,7 @@ section {
 	display: block;
 	text-transform: initial;
 }
+
 /* BLOG SECTION
 -------------------------------------------------- */
 /* Estilos existentes que ainda são necessários */
