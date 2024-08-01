@@ -498,29 +498,29 @@ section {
 	color: #fff;
 	background-color: #0C8093;
 	border-color: #0C8093;
-  }
-  .btn-primary:hover {
+}
+.btn-primary:hover {
 	color: #fff;
 	background-color: #0c5c6e;
 	border-color: #0c5c6e;
-  }
-  .btn-lg {
+}
+.btn-lg {
 	padding: 10px 20px;
 	font-size: 1.07rem;
 	border-radius: 0.3rem;
-	}
+}
 /*--------------Perguntas Frequentes--------------*/
 
 .accordion {
 	max-width: 750px;
 	margin: auto;
-  }
+}
   
-  .card-header {
+.card-header {
 	cursor: pointer;
-  }
+}
   
-  .faq-header {
+.faq-header {
 	display: block;
 	width: 100%;
 	padding: 0.75rem 1.25rem;
@@ -528,15 +528,30 @@ section {
 	background-color: transparent;
 	border: 1px solid rgba(0, 0, 0, 0);
 	border-radius: 0.25rem;
-  }
+}
 
-  .card-body {
+.card-body {
 	text-align: justify;
 	padding: 1.25rem;
-  }
-  .collapsed .faq-header {
+}
+.collapsed .faq-header {
 	background-color: #ffffff;
-  }
+}
+.contact-sec h2 {
+	display: block;
+	text-transform: capitalize;
+	text-align: center;
+	margin-bottom: 50px;
+	font-weight: 600;
+	color: #0C8093;
+	font-size: 32px;
+}
+.contact-sec h2 small {
+	color: #222;
+	display: block;
+	font-size: 22px;
+	margin-bottom: 18px;
+}
 
 /*--------------filter css--------------*/
 .filter-wrapper {
@@ -784,44 +799,8 @@ section {
 /* CONTACT SECTION
 -------------------------------------------------- */
 .contact-sec {
-	background: url(../img/BG.svg) no-repeat 0 bottom;
+	background: transparent;
 	background-size: cover;
-}
-.contact-sec h2 {
-	color: #011828;
-	font-weight: 600;
-	text-transform: capitalize;
-	text-align: center;
-	margin-bottom: 50px;
-}
-.contact-sec h2 small {
-	color: #011828;
-	display: block;
-	line-height: 27px;
-	margin-top: 10px;
-}
-.contact-sec label {
-	color: #011828;
-}
-.contact-sec details {
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: left;	
-	padding: 1%
-}
-.contact-sec details summary {
-	background-color: transparent;
-	border-radius: 2px #282828;
-	width: 80%;
-	padding-left: 150px
-}
-.contact-sec details p {
-	background-color: white;
-}
-.logo img {
-	max-width: 10px; /* Defina o tamanho máximo do logo aqui */
-	height: auto; /* Mantém a proporção do logo */
 }
 footer {
 	float: left;
