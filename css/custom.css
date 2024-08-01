@@ -196,14 +196,10 @@ section {
     text-align: center;
     font-size: 18px;
     background: #fff;
-    /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
-
 .main-slider .slider-bg-position {
 	background-size: cover!important;
 	background-position: center center!important;
@@ -234,10 +230,9 @@ section {
 	background: #B0E8F1
 }
 
-/* Estilização do botão dentro do slide */
 .slide-button {
   position: absolute;
-  bottom: 110px; /* Ajuste conforme necessário */
+  bottom: 110px; 
   left: 50%;
   transform: translateX(-50%);
 }
@@ -246,14 +241,14 @@ section {
   padding: 10px 20px;
   font-size: 16px;
   border: none;
-  background-color: #0C8093; /* Cor do botão */
+  background-color: #0C8093;
   color: #fff;
   border-radius: 4px;
   cursor: pointer;
 }
 
 .slide-button .btn:hover {
-  background-color: #5EC0D0; /* Cor ao passar o mouse */
+  background-color: #5EC0D0;
 }
 
 /* SERVICE SECTION
@@ -463,7 +458,7 @@ section {
 	margin-top: 30px;
     text-align: center;
 }
-/* Lista de Passos */
+
 .steps {
     display: flex;
     flex-direction: column;
@@ -498,6 +493,50 @@ section {
     font-size: 16px;
     color: #333;
 }
+
+.btn-primary {
+	color: #fff;
+	background-color: #0C8093;
+	border-color: #0C8093;
+  }
+  .btn-primary:hover {
+	color: #fff;
+	background-color: #0c5c6e;
+	border-color: #0c5c6e;
+  }
+  .btn-lg {
+	padding: 10px 20px;
+	font-size: 1.07rem;
+	border-radius: 0.3rem;
+	}
+/*--------------Perguntas Frequentes--------------*/
+
+.accordion {
+	max-width: 750px;
+	margin: auto;
+  }
+  
+  .card-header {
+	cursor: pointer;
+  }
+  
+  .faq-header {
+	display: block;
+	width: 100%;
+	padding: 0.75rem 1.25rem;
+	margin-bottom: 0;
+	background-color: transparent;
+	border: 1px solid rgba(0, 0, 0, 0);
+	border-radius: 0.25rem;
+  }
+
+  .card-body {
+	text-align: justify;
+	padding: 1.25rem;
+  }
+  .collapsed .faq-header {
+	background-color: #ffffff;
+  }
 
 /*--------------filter css--------------*/
 .filter-wrapper {
