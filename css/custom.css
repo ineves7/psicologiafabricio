@@ -840,6 +840,7 @@ footer {
 	padding: 20px 0
 }
 footer ul {
+	text-align: justify;
 	list-style: none;
 	padding-left: 0
 }
@@ -851,6 +852,7 @@ footer li a {
 	color: #fff;
 	float: left;
 	padding-bottom: 15px;
+	padding-top: 25px;
 	width: 100%;
 }
 footer .copy-footer {
