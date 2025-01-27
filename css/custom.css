@@ -361,6 +361,7 @@ section {
 /* ABOUT SECTION
 -------------------------------------------------- */
 .about-sec {
+	background-color: #035668;
 	background: url no-repeat center center;
 	background-size: cover;
 	color: #fff;
@@ -393,7 +394,15 @@ section {
 	display: block;
 	text-transform: initial;
 }
-
+.list-group-item {
+	background-color: #1D96AA;
+	color: #fff;
+	margin-bottom: 6px; /* Para substituir `my-1` */
+}
+  
+.centered-item {
+	text-align: center; /* Centraliza o texto */
+}
 /* BLOG SECTION
 -------------------------------------------------- */
 /* Estilos existentes que ainda são necessários */
